@@ -40,33 +40,6 @@ useEffect(() => {
 }, [tasks]);
 ```
 
-## Installation & Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd react-todo-list
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Install required packages**
-   ```bash
-   npm install react lucide-react
-   # Tailwind CSS should be configured in your project
-   ```
-
-4. **Run the application**
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
 
 ## Testing Guidance
 
@@ -156,38 +129,7 @@ src/
 └── index.js                 # React entry point
 ```
 
-## Git Workflow
 
-### Initial Setup
-```bash
-git init
-git add .
-git commit -m "Initial commit: React To-Do List with full features"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-### Development Workflow
-```bash
-# Create feature branch
-git checkout -b feature/new-feature
-
-# Make changes and commit
-git add .
-git commit -m "Add: description of changes"
-
-# Push and create PR
-git push origin feature/new-feature
-```
-
-### Commit Message Convention
-- `Add: new feature or functionality`
-- `Fix: bug fixes`
-- `Update: improvements to existing features`
-- `Style: formatting, UI changes`
-- `Test: adding or updating tests`
-- `Docs: documentation changes`
 
 ## Performance Considerations
 
